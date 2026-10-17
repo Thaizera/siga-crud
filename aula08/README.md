@@ -97,10 +97,3 @@ registros ausentes, cópia defensiva, dados inválidos, limites, médias não
 finitas, isolamento dos serviços criados e mensagens da apresentação.
 As saídas reais estão em [evidencias/execucao.txt](evidencias/execucao.txt)
 e [evidencias/testes.txt](evidencias/testes.txt).
-
-## Uso de IA
-
-Esta versão recebeu apoio de IA na implementação, documentação e testes.
-Aluno e AlunoDAO foram preservados. A ficha da atividade proíbe geração de
-código por IA por padrão. Esta declaração registra o uso ocorrido e não
-modifica as regras da disciplina.
