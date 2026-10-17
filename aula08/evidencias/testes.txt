@@ -1,0 +1,1 @@
+OK: 68 verificacoes de CRUD, validacao, duplicidade, copia defensiva, falhas e apresentacao.

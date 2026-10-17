@@ -6,7 +6,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         System.out.println("=== SIGA - Aula 8: CRUD completo ===");
-        ServicoAluno servico = new ServicoAluno(new AlunoDAOMemoria());
+        ServicoAluno servico = FabricaServicoAluno.criarEmMemoria();
         executar("Cadastro de Maria", () -> servico.cadastrar(new Aluno("Maria Silva", "2026001", 8.5)));
         executar("Cadastro de Joao", () -> servico.cadastrar(new Aluno("Joao Souza", "2026002", 6.0)));
         System.out.println("\nAlunos cadastrados:");

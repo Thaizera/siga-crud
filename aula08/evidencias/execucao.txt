@@ -1,0 +1,24 @@
+=== SIGA - Aula 8: CRUD completo ===
+Cadastro de Maria: sucesso.
+Cadastro de Joao: sucesso.
+
+Alunos cadastrados:
+2026001 - Maria Silva (média 8.5)
+2026002 - Joao Souza (média 6.0)
+2026001 - Maria Silva (média 8.5)
+Consulta: sucesso.
+Atualizacao: sucesso.
+2026001 - Maria Silva (média 9.0)
+Consulta apos atualizacao: sucesso.
+
+Apos alterar a copia: 2 alunos no servico.
+Cadastro duplicado: erro - Matricula ja cadastrada: 2026001
+Cadastro com media invalida: erro - Media deve ser finita e estar entre 0 e 10.
+Atualizacao com nome vazio: erro - Nome e obrigatorio.
+Atualizacao inexistente: erro - Aluno nao encontrado: 0000000
+Exclusao inexistente: erro - Aluno nao encontrado: 0000000
+Exclusao de Joao: sucesso.
+Consulta de Joao excluido: erro - Aluno nao encontrado: 2026002
+
+Lista final:
+2026001 - Maria Silva (média 9.0)
